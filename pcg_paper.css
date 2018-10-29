@@ -1,0 +1,48 @@
+@charset "utf-8";
+
+/*
+   New Perspectives on HTML5 and CSS3, 7th Edition
+   Tutorial 3
+   Case Problem 4
+
+   Park City Gazette Style Sheet
+   Author: Rafael Martinez 
+   Date: 10/29/18  
+
+   Filename:         pcg_paper.css
+   Supporting Files: 
+
+*/
+html {
+    height: 100%;
+    background-color: rgba(156, 88, 48, 0.829)
+}
+
+header img {
+    border: 0.5px solid black;
+}
+
+body {
+    background-color: rgb(197, 145, 103);
+    font-family: Verdana, Geneva, Arial, sans-serif;
+    margin: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 95%;
+    max-width: 960px;
+    min-width: 640px;
+    position: relative;
+    border: 1px solid rgb(102, 101, 101);
+
+}
+
+nav a:link,
+nav a:visited {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+nav a:hover,
+nav a:active {
+    color: rgb(255, 255, 255);
+}
